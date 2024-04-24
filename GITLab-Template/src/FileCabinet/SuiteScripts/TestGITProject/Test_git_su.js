@@ -62,7 +62,10 @@ define(['N/action', 'N/auth', 'N/cache', 'N/certificateControl', 'N/commerce', '
          * @since 2015.2
          */
         const onRequest = (scriptContext) => {
-
+            log.debug({
+                title: string * ,
+                details: any
+            })
         }
 
         return { onRequest }
